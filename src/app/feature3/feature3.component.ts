@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TextFilterService } from '../shared/text-filter.service';
 
+//this feature3 module is to illustrate that if we did not import sharedmodule what would be error outcome in using the service from sharedmodule
+
 @Component({
   selector: 'app-feature3',
   templateUrl: './feature3.component.html',
